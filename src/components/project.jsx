@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import codingfarm from '../assets/project-coding-farm.png'
+import dropapp from '../assets/project-agency.png'
+import dashboard from '../assets/project-dashboard.png'
+import dbklik from '../assets/project-desktop-dbklik.png'
 
 export default function Project() {
     const [selectedProject, setSelectedProject] = useState(null)
@@ -110,7 +114,7 @@ const projectData = [
     {
         id: 1,
         title: "Coding Farm Landing Page",
-        image: "src/assets/project-coding-farm.png",
+        image: codingfarm,
         desc: "Coding Farm is School Coding for kids based at Surabaya, Indonesia. A modern and engaging landing page for Coding Farm, an online coding bootcamp. The design features a clean layout, vibrant colors, and interactive elements to attract potential students and showcase the benefits of joining the bootcamp.",
         linkDribbble: "#",
         linkBehance: "#",
@@ -119,7 +123,7 @@ const projectData = [
     {
         id: 2,
         title: "Drop App Digital Agency Landing Page",
-        image: "src/assets/project-agency.png",
+        image: dropapp,
         desc: "A sleek and professional landing page for Drop App, a digital agency specializing in web and mobile app development. The design emphasizes the agency's expertise and portfolio, with a focus on clear calls-to-action to encourage potential clients to get in touch.",
         linkDribbble: "#",
         linkBehance: "#",
@@ -128,7 +132,7 @@ const projectData = [
     {
         id: 3,
         title: "Simple Minimalist Dashboard",
-        image: "src/assets/project-dashboard.png",
+        image: dashboard,
         desc: "A simple and minimalist dashboard design for a productivity app. The design focuses on clean lines, ample white space, and intuitive navigation to help users easily access their tasks, calendar, and analytics. The use of subtle colors and typography enhances the user experience while maintaining a modern aesthetic.",
         linkDribbble: "#",
         linkBehance: "#",
@@ -137,7 +141,7 @@ const projectData = [
     {
         id: 4,
         title: "DB Klik Membership Store Landing Page",
-        image: "src/assets/project-desktop-dbklik.png",
+        image: dbklik,
         desc: "DB Klik is store computer based at Surabaya, Indonesia. A vibrant and user-friendly landing page for DB Klik, a membership store offering exclusive deals and discounts. The design incorporates bold colors, engaging visuals, and clear messaging to attract users and encourage them to sign up for the membership program.",
         linkDribbble: "#",
         linkBehance: "#",
