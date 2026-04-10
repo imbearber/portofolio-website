@@ -30,9 +30,9 @@ export default function Navbar() {
                     <a href="#experience" className="text-txt-primary text-lg border-transparent border-b-2 pb-1.5 transition-colors duration-200 hover:text-primary hover:border-primary hover:font-semibold">Experience</a>
                 </li>
             </ul>
-            <button className='hidden md:block border-2 text-button font-semibold py-2 px-7 rounded-lg cursor-pointer transition-colors duration-300 hover:bg-button/10'>
+            {/* <button className='hidden md:block border-2 text-button font-semibold py-2 px-7 rounded-lg cursor-pointer transition-colors duration-300 hover:bg-button/10'>
                 Hire Me
-            </button>
+            </button> */}
             <button className='block md:hidden' onClick={toggleMenu}>
                 <Menu color="#FF9161"/>
             </button>
