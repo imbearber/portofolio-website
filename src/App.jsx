@@ -9,6 +9,7 @@ import Project from './components/project.jsx'
 import Experience from './components/experience.jsx'
 import Footer from './components/footer.jsx'
 import Contact from './components/contact.jsx'
+import Skills from './components/skills.jsx'
 
 function App() {
   return (
@@ -57,6 +58,14 @@ function App() {
       transition={{ duration: 0.8, delay: 0.3 }}
       viewport={{ once: true, amount: 0.1 }}>
       <Experience />
+    </motion.div>
+
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}>
+      <Skills />
     </motion.div>
 
     <motion.div

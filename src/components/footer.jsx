@@ -60,10 +60,10 @@ export default function Footer() {
                         <div className="flex flex-col gap-6 w-[45%] sm:w-auto">
                             <h3 className="font-semibold text-lg">Navigation</h3>
                             <ul className="flex flex-col gap-4 text-white/80">
-                                <li><a href="#" className="hover:text-white transition-colors">Home</a></li>
-                                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-                                <li><a href="#" className="hover:text-white transition-colors">Project</a></li>
-                                <li><a href="#" className="hover:text-white transition-colors">Experience</a></li>
+                                <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
+                                <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
+                                <li><a href="#project" className="hover:text-white transition-colors">Project</a></li>
+                                <li><a href="#experience" className="hover:text-white transition-colors">Experience</a></li>
                             </ul>
                         </div>
 
@@ -91,7 +91,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* BAGIAN BAWAH: Copyright & Terms */}
                 <div className="mt-20 lg:mt-32 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-white/80 text-sm md:text-base">
                     <p>© 2026 Berliano Ridho Pratama, All Rights Reserved.</p>
                     <div className="flex items-center gap-6">

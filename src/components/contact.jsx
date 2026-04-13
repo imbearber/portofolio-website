@@ -55,7 +55,7 @@ export default function Contact() {
 
     return (
         <>
-            <section id="experience" className="w-full py-20 px-8 md:px-16 lg:px-24 bg-bg-main">
+            <section id="contact" className="w-full py-20 px-8 md:px-16 lg:px-24 bg-bg-main">
                 <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 items-start">
                     <div className="w-full lg:w-1/4 lg:sticky lg:top-32">
                         <h2 className="text-3xl md:text-4xl text-center lg:text-left font-bold text-primary tracking-wide">

@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import { Star } from 'lucide-react'; 
+import { ArrowRight } from 'lucide-react';
 import photoprofile from '../assets/photo-profile.png'
 import figmalogo from '../assets/figma-logo.svg'
 import sketchlogo from '../assets/sketch-logo.svg'
@@ -32,12 +33,13 @@ export default function Hero() {
                         Bridging the gap between human centered design and robust technology. I am an Informatics Engineering graduate dedicated to crafting seamless digital products, from conceptualization to functional web execution.
                     </p>
                     <div className="flex flex-wrap items-center gap-5 mt-4">
-                        <button className="bg-primary text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-primary/30 transition-transform duration-300 hover:-translate-y-3">
-                            Get In Touch
-                        </button>
-                        <button className="border-2 text-button font-semibold py-3 px-8 rounded-lg shadow-lg shadow-button/30 transition-all duration-300 hover:bg-button/10 hover:-translate-y-3">
-                            Book a demo
-                        </button>
+                        <a href='#contact' className="bg-primary text-white font-semibold py-3 px-8 rounded-lg shadow-lg shadow-primary/30 transition-transform duration-300 hover:-translate-y-3">
+                            Hire Me
+                        </a>
+                        <a href='#project' className="flex items-center gap-2 border-2 text-button font-semibold py-3 px-7 rounded-lg shadow-lg shadow-button/30 transition-all duration-300 hover:bg-button/10 hover:-translate-y-3">
+                            Latest Project
+                            <ArrowRight className="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-1.5" />
+                        </a>
                     </div>
                     <div className="flex items-center gap-3 mt-6">
                         <div className="flex -space-x-3">
