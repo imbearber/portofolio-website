@@ -86,7 +86,7 @@ const experienceData = [
     },
     {
         id: 2,
-        title: "UI/UX Designer",
+        title: "UI/UX Designer & Front End Developer",
         company: "Internship at DB Klik Indonesia",
         duration: "January 2025 - June 2025",
         description: "As a UI/UX Designer, I have successfully completed various design projects for clients across different industries. My responsibilities include creating user personas, conducting user research, and designing intuitive and visually appealing interfaces. I collaborate closely with developers to ensure the designs are implemented correctly and provide a great user experience."
