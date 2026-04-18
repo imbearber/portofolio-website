@@ -35,8 +35,8 @@ export default function Experience() {
                         {experienceData.map((exp) => (
                             <div key={exp.id} className="relative pl-14">
                                 <motion.div 
-                                    initial={{ backgroundColor: "#E5E7EB" }} // gray-200
-                                    whileInView={{ backgroundColor: "#FF8F61" }} // primary color
+                                    initial={{ backgroundColor: "#E5E7EB" }}
+                                    whileInView={{ backgroundColor: "#FF8F61" }}
                                     transition={{ duration: 0.3 }}
                                     viewport={{ once: false, margin: "0% 0px -50% 0px" }}
                                     className="absolute left-0 top-1.5 w-8 h-8 rounded-full shadow-sm z-10 border-[6px] border-bg-main"

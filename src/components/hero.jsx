@@ -60,11 +60,11 @@ export default function Hero() {
                 </div>
 
                 <div className="relative flex justify-center items-center mt-10 md:mt-0">
-                    <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden bg-gray-200 relative z-10 shadow-2xl">
+                    <div className="w-75 h-75 md:w-100 md:h-100 rounded-full overflow-hidden bg-gray-200 relative z-10 shadow-2xl">
                         <img src={photoprofile} alt="Berliano Profil" className="w-full h-full object-cover" />
                     </div>
 
-                    <div className="absolute top-5 left-0 md:-left-10 z-20 animate-melayang bg-[#FF9161] backdrop-blur-sm text-white px-5 py-2 rounded-full font-semibold shadow-lg">
+                    <div className="absolute top-5 left-0 md:-left-10 z-20 animate-melayang bg-button backdrop-blur-sm text-white px-5 py-2 rounded-full font-semibold shadow-lg">
                         UI Designer
                     </div>
 

@@ -41,7 +41,6 @@ export default function Contact() {
           <p className="mt-4 text-base md:text-lg text-gray-600">
             Your message has been sent successfully. I will respond to your email as soon as possible.
           </p>
-          {/* Tombol opsional untuk mengirim pesan lagi */}
           <button 
             onClick={() => setIsSuccess(false)}
             className="mt-6 text-[#F26A5A] font-semibold hover:underline"

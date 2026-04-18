@@ -2,7 +2,6 @@ import '../App.css'
 
 export default function About() {
     return (
-        // Padding dan layout dipastikan 100% kembar dengan Hero
         <section id="about" className="w-full py-16 px-8 md:px-16 lg:px-24 bg-bg-main">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-start">
                 
